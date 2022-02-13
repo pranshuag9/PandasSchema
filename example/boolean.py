@@ -1,5 +1,6 @@
 from pandas_schema import Column, Schema
-from pandas_schema.validation import MatchesPatternValidation, CanConvertValidation, CustomSeriesValidation
+from pandas_schema.validation import MatchesPatternValidation, \
+    CanConvertValidation, CustomSeriesValidation
 import pandas as pd
 
 schema = Schema([
