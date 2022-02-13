@@ -6,7 +6,7 @@ class PanSchError(BaseException):
 
 class PanSchInvalidSchemaError(PanSchError):
     """
-    The schema is malformed, whether or not it fits the data frame
+    The schema is malformed, whether it fits the data frame
     """
 
 
